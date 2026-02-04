@@ -7,34 +7,26 @@ import {
   GraduationCap,
   Scale,
   Globe,
-  TrendingUp,
-  PiggyBank,
-  Sparkles,
   Store,
-  Coins,
-  CircleDollarSign,
   Wallet,
   Bot,
+  Sparkles,
 } from "lucide-react";
 import PlatformCard from "./PlatformCard";
 
 const platforms = [
   { icon: User, name: "FUN Profile", description: "Web3 Social Network" },
-  { icon: Play, name: "FUN Play", description: "Video Web3" },
-  { icon: Gamepad2, name: "FUN Planet", description: "Game for Kids" },
-  { icon: Heart, name: "FUN Charity", description: "Từ thiện minh bạch" },
-  { icon: Leaf, name: "FUN Farm", description: "Farm to Table" },
-  { icon: GraduationCap, name: "FUN Academy", description: "Learn & Earn 5D" },
-  { icon: Scale, name: "FUN Legal", description: "Luật Vũ Trụ" },
-  { icon: Globe, name: "FUN Earth", description: "Xanh hoá Trái Đất" },
-  { icon: TrendingUp, name: "FUN Trading", description: "Tài sản số" },
-  { icon: PiggyBank, name: "FUN Invest", description: "Đầu tư ánh sáng" },
-  { icon: Sparkles, name: "FUNLife", description: "Cosmic Game" },
-  { icon: Store, name: "FUN Market", description: "Marketplace Web3" },
-  { icon: Coins, name: "FUN Money", description: "Tiền Ánh Sáng" },
-  { icon: CircleDollarSign, name: "Camly Coin", description: "Tiền tệ linh hồn" },
-  { icon: Wallet, name: "FUN Wallet", description: "Our Own Bank" },
-  { icon: Bot, name: "ANGEL AI", description: "Nền tảng AI Ánh Sáng" },
+  { icon: Play, name: "FUN Play", description: "Web3 Video Platform" },
+  { icon: Gamepad2, name: "FUN Planet", description: "Game Marketplace for Kids" },
+  { icon: Sparkles, name: "FUNLife", description: "Cosmic Game / Simulation of Life 5D" },
+  { icon: GraduationCap, name: "FUN Academy", description: "Learn & Earn Education Platform" },
+  { icon: Heart, name: "FUN Charity", description: "Pure Love Charity Network" },
+  { icon: Wallet, name: "FUN Wallet", description: "Our Own Bank of Light Economy" },
+  { icon: Leaf, name: "FUN Farm", description: "Farm to Table Abundance Platform" },
+  { icon: Store, name: "FUN Market", description: "Marketplace of Light" },
+  { icon: Scale, name: "FUN Legal", description: "Cosmic Laws for New Earth" },
+  { icon: Globe, name: "FUN Earth", description: "Regeneration & Sustainability Platform" },
+  { icon: Bot, name: "Angel AI", description: "Light-Aligned Artificial Intelligence" },
 ];
 
 const ChakrasSection = () => {
@@ -43,10 +35,10 @@ const ChakrasSection = () => {
       <div className="container px-4">
         <div className="text-center mb-16">
           <h2 className="font-display text-4xl md:text-5xl font-semibold text-foreground mb-4">
-            16 Luân Xa <span className="text-cosmic-purple glow-text">FUN Ecosystem</span>
+            12 Nền Tảng <span className="text-cosmic-purple glow-text">Ánh Sáng</span>
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Mỗi nền tảng là một luân xa năng lượng, kết nối và lan toả ánh sáng trong hệ sinh thái
+            Tất cả Platforms của FUN Ecosystem là một cơ thể Ánh Sáng thống nhất
           </p>
         </div>
 
@@ -60,6 +52,16 @@ const ChakrasSection = () => {
               delay={index * 50}
             />
           ))}
+        </div>
+
+        {/* Future expansion tagline */}
+        <div className="mt-12 text-center">
+          <p className="font-display text-xl md:text-2xl text-muted-foreground italic">
+            ✨ Và đây mới chỉ là những nền tảng đầu tiên...
+          </p>
+          <p className="text-lg text-cosmic-purple mt-2">
+            FUN Ecosystem sẽ còn mở rộng thêm nhiều tầng ánh sáng nữa
+          </p>
         </div>
       </div>
 

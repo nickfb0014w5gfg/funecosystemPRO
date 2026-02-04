@@ -10,9 +10,9 @@ const HeroSection = () => {
 
       <div className="container relative z-10 px-4 text-center">
         <div className="animate-fade-up">
-          <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-cosmic-purple/10 border border-cosmic-purple/20 mb-8">
+          <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-cosmic-purple/10 border border-cosmic-purple/20 mb-6">
             <Sparkles className="w-4 h-4 text-cosmic-gold" />
-            <span className="text-sm font-medium text-cosmic-purple-dark">Web3 + AI + Ánh Sáng</span>
+            <span className="text-sm font-medium text-cosmic-purple-dark">Nền Kinh Tế Ánh Sáng 5D của Trái Đất Mới</span>
           </div>
 
           <h1 className="font-display text-5xl md:text-7xl lg:text-8xl font-semibold text-foreground mb-6 leading-tight">
@@ -21,6 +21,20 @@ const HeroSection = () => {
               Nền Kinh Tế Ánh Sáng 5D
             </span>
           </h1>
+
+          {/* Sacred Slogan - English */}
+          <div className="max-w-3xl mx-auto mb-4">
+            <p className="font-display text-xl md:text-2xl lg:text-3xl text-cosmic-gold font-semibold">
+              Free to Join • Free to Use • Earn Together • With Pure Love
+            </p>
+          </div>
+
+          {/* Sacred Slogan - Vietnamese */}
+          <div className="max-w-3xl mx-auto mb-8">
+            <p className="text-lg md:text-xl text-muted-foreground">
+              Tự Do Gia Nhập • Tự Do Sử Dụng • Cùng Nhau Kiếm Tiền • Với Tình Yêu Thuần Khiết
+            </p>
+          </div>
 
           <p className="max-w-2xl mx-auto text-lg md:text-xl text-muted-foreground mb-12 leading-relaxed">
             Hệ sinh thái Web3 + AI + Ánh Sáng đầu tiên, nơi con người sáng tạo – chia sẻ – nhận lại – tiến hóa trong tình yêu thuần khiết.
