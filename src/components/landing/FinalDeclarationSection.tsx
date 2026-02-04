@@ -74,6 +74,46 @@ const FinalDeclarationSection = () => {
               </div>
             </div>
           </div>
+
+          {/* Future Vision - PPLP Addition */}
+          <div className="mt-16">
+            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-cosmic-aqua/10 border border-cosmic-aqua/20 mb-6">
+              <Sparkles className="w-4 h-4 text-cosmic-aqua" />
+              <span className="text-sm font-medium text-cosmic-aqua">Tương Lai Đột Phá</span>
+            </div>
+
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+              {[
+                "Nền Kinh Tế Thời Đại Hoàng Kim",
+                "Universal Blessing Income",
+                "Blockchain của Unity",
+                "Sung túc nhờ phụng sự",
+                "Tiền tệ chữa lành nhân loại",
+                "Hạ tầng Trái Đất Mới",
+              ].map((item, index) => (
+                <div
+                  key={index}
+                  className="p-4 rounded-xl bg-card/50 border border-cosmic-gold/20 flex items-center gap-3"
+                >
+                  <Sparkles className="w-4 h-4 text-cosmic-gold flex-shrink-0" />
+                  <span className="text-foreground">{item}</span>
+                </div>
+              ))}
+            </div>
+
+            <div className="mt-10 p-6 rounded-2xl bg-gradient-to-r from-cosmic-purple/10 via-cosmic-gold/10 to-cosmic-aqua/10 border border-cosmic-gold/20 text-center">
+              <p className="font-display text-xl md:text-2xl text-foreground">
+                <span className="text-cosmic-purple">Blockchain</span>
+                {" + "}
+                <span className="text-cosmic-gold">AI</span>
+                {" + "}
+                <span className="text-cosmic-aqua">Pure Love (Unity)</span>
+              </p>
+              <p className="font-display text-2xl md:text-3xl font-semibold text-cosmic-gold mt-2 glow-gold">
+                = Sung Túc Vô Tận ✨
+              </p>
+            </div>
+          </div>
         </div>
       </div>
 

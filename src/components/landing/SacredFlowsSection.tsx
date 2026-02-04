@@ -90,6 +90,52 @@ const SacredFlowsSection = () => {
         <div className="hidden md:flex items-center justify-center mt-8">
           <div className="w-32 h-1 rounded-full bg-gradient-to-r from-cosmic-aqua via-cosmic-purple to-cosmic-gold" />
         </div>
+
+        {/* Mint Mechanisms - PPLP Addition */}
+        <div className="mt-20 max-w-4xl mx-auto">
+          <div className="text-center mb-10">
+            <h3 className="font-display text-2xl md:text-3xl font-semibold text-foreground mb-3">
+              Cách <span className="text-cosmic-gold">FUN Money</span> Được Tạo Ra
+            </h3>
+            <p className="text-muted-foreground">
+              Tiền tệ được khai sinh từ Ánh Sáng và Hợp Nhất
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <div className="p-6 rounded-2xl bg-gradient-to-br from-cosmic-gold/10 to-transparent border border-cosmic-gold/20 text-center">
+              <div className="w-12 h-12 rounded-full bg-cosmic-gold/20 flex items-center justify-center mx-auto mb-4">
+                <Sun className="w-6 h-6 text-cosmic-gold" />
+              </div>
+              <h4 className="font-display text-lg font-semibold text-cosmic-gold mb-2">Mint-to-Light</h4>
+              <p className="text-sm text-muted-foreground">Tạo giá trị từ hành động ánh sáng</p>
+            </div>
+
+            <div className="p-6 rounded-2xl bg-gradient-to-br from-cosmic-purple/10 to-transparent border border-cosmic-purple/20 text-center">
+              <div className="w-12 h-12 rounded-full bg-cosmic-purple/20 flex items-center justify-center mx-auto mb-4">
+                <Sparkles className="w-6 h-6 text-cosmic-purple" />
+              </div>
+              <h4 className="font-display text-lg font-semibold text-cosmic-purple mb-2">Mint-to-Unity</h4>
+              <p className="text-sm text-muted-foreground">Tạo giá trị từ sự kết nối</p>
+            </div>
+
+            <div className="p-6 rounded-2xl bg-gradient-to-br from-cosmic-aqua/10 to-transparent border border-cosmic-aqua/20 text-center">
+              <div className="w-12 h-12 rounded-full bg-cosmic-aqua/20 flex items-center justify-center mx-auto mb-4">
+                <Droplet className="w-6 h-6 text-cosmic-aqua" />
+              </div>
+              <h4 className="font-display text-lg font-semibold text-cosmic-aqua mb-2">Mint-to-Contribution</h4>
+              <p className="text-sm text-muted-foreground">Tạo giá trị từ đóng góp phụng sự</p>
+            </div>
+          </div>
+
+          <div className="mt-10 text-center">
+            <blockquote className="font-display text-lg md:text-xl text-muted-foreground italic max-w-2xl mx-auto">
+              "FUN Money không khan hiếm vì sợ hãi.
+              <br />
+              <span className="text-cosmic-gold not-italic font-medium">FUN Money sung túc vì Ánh sáng luôn mở rộng khi con người Hợp Nhất.</span>"
+            </blockquote>
+          </div>
+        </div>
       </div>
 
       {/* Decorative orbs */}
