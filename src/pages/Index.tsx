@@ -3,8 +3,11 @@ import OriginSection from "@/components/landing/OriginSection";
 import MissionSection from "@/components/landing/MissionSection";
 import VisionSection from "@/components/landing/VisionSection";
 import SacredFlowsSection from "@/components/landing/SacredFlowsSection";
+import PPLPSection from "@/components/landing/PPLPSection";
+import VerificationPillarsSection from "@/components/landing/VerificationPillarsSection";
 import ChakrasSection from "@/components/landing/ChakrasSection";
 import PrinciplesSection from "@/components/landing/PrinciplesSection";
+import AngelAIOracleSection from "@/components/landing/AngelAIOracleSection";
 import LeadershipSection from "@/components/landing/LeadershipSection";
 import CommunityPledgeSection from "@/components/landing/CommunityPledgeSection";
 import MantrasSection from "@/components/landing/MantrasSection";
@@ -35,8 +38,11 @@ const Index = () => {
         <MissionSection />
         <VisionSection />
         <SacredFlowsSection />
+        <PPLPSection />
+        <VerificationPillarsSection />
         <ChakrasSection />
         <PrinciplesSection />
+        <AngelAIOracleSection />
         <LeadershipSection />
         <CommunityPledgeSection />
         <MantrasSection />
